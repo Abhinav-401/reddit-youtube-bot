@@ -1,8 +1,9 @@
 import praw
 
-reddit = praw.Reddit(client_id='Q9MUOqXsxdmnqw',
-                     client_secret='NPL9Cm-onUwKxxtaUFfkunP5Kv0', password='PlanetSplitter2526',
-                     user_agent='RedditBot', username='TesterBester_Binary')
+
+reddit = praw.Reddit(client_id='',
+                     client_secret='', password='',
+                     user_agent='RedditBot', username='')
 
 subreddit = reddit.subreddit('python')                                                                  #Subreddit name that you want
 
