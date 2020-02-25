@@ -16,7 +16,7 @@ for submission in hot_python:
                                                                                                    submission.downs,
                                                                                                    submission.visited,
                                                                                                     submission.id))
-        submission.comments.replace_more(limit=none)                                                                                              
+        submission.comments.replace_more(limit=None)      #limit=0                                                                                        
         comments = submission.comments
         for comment in comments:
             print(20*'-')
